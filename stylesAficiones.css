@@ -1,0 +1,30 @@
+main h3 {
+    font-size: 1.7em;
+}
+section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section h3 {
+    text-align: center;
+    margin: 0;
+}
+.deportes, .viajes, .cine{
+    width: 33%;
+    flex-direction: column;
+    margin: 0;
+    background-color:silver;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+img {
+    margin: 0%;
+    width: 100%;
+    border-radius: 10px;
+}
+.contenedor1 p {
+    text-align: center;
+}

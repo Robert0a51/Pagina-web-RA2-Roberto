@@ -1,0 +1,11 @@
+.sobremi{
+    width: 70%;
+}
+main img {
+    width: 28%;
+    height: 15em;
+    position: absolute;
+    right: 2em;
+    top: 20em;
+    float: inline-end;
+}

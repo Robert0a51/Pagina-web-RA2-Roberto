@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/stylesGeneral.css">
+    <link rel="stylesheet" href="../CSS/stylesContacto.css">
+    <link rel="icon" href="../FOTOS/logo portfolio.jpg">
+</head>
+
+<body>
+    <header>
+        <img src="../FOTOS/logo portfolio.jpg" alt="">
+        <h1>Portafolio de Roberto</h1>
+
+        <nav>
+            <ul>
+                <li><a href="Introducción.html">Inicio</a></li>
+                <li><a href="sobre_mi.html">Sobre Mí</a></li>
+                <li><a href="Aficiones.html">Aficiones</a></li>
+                <li><a href="Habilidades.html">Habilidades</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contacto</h2>
+            <p>
+                Si tienes alguna pregunta, inquietud o propuesta,
+                no dudes en contactarme. Estaré encantado de hablar
+                contigo y ayudarte en lo que necesites.
+            </p>
+            <div class="formulario">
+                <form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="10" required placeholder="Escriba aquí.."></textarea>
+
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div class="informacion-contacto">
+                <h3>Otras formas de contacto</h3>
+                <p>Si prefieres, puedes escribirme directamente a mi correo electrónico o seguirme en redes sociales:
+                </p>
+                <ul>
+                    <li><strong>Correo electrónico:</strong>roberto@gmail.com</li>
+                    <li><strong>Teléfono:</strong> +34 123 45 67 89</li>
+                    <li><strong>Sígueme en redes sociales:</strong></li>
+                    <li><a href="https://Twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://Instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="ubicacion">
+                <h3>Ubicación</h3>
+                <p>Si prefieres una reunión presencial, me encuentras en:</p>
+                <p>Av. de la Onu, 81, 28936 Móstoles, Madrid</p>
+                <div id="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7328.5574615418145!2d-3.8520269000000003!3d40.3125736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418c3a1f62d9e5%3A0xaefd32a6415e67c1!2sIES%20El%20Ca%C3%B1averal!5e1!3m2!1ses!2ses!4v1763570295222!5m2!1ses!2ses"
+                        width="100%" height="450" style="border:1;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Roberto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
